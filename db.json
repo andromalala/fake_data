@@ -42,7 +42,7 @@
         },
         "info":{
           "_id":"64afa8903e489715c336da09",
-          "departureDate" :"2023-07-12T00:00:00.000Z",
+          "departureDate" :"2023-07-12T00:00:00.000Z"
         },
         "rate":{
           "_id" : "64afa8903e489715c336da07",
@@ -52,7 +52,7 @@
               "locationType" :"Location classique",
               "duration" : "1-mois",
               "durationDay" :"0",
-              "payementType" : "Mensuel",
+              "payementType" : "Mensuel"
             }
           ]
         },
@@ -65,11 +65,11 @@
             "montant" : "5000.00",
             "amountToPay" :"5000.00"
           }
-        ]
+        ],
         "isEdlDepart":true,
         "numberContrat" : "CT0001",
-        "_id" :"64afa7cf3e489715c336d53a",
+        "_id" :"64afa7cf3e489715c336d53a"
       }
-    },
+    }
   ]
 }
