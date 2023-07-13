@@ -11,7 +11,65 @@
   "profile": {
     "name": "typicode"
   },
-  "idVoiture":{
-    "id":"idvoiture"
-  }
+  "listVehicleRecup":[
+    {
+      "_id":"idVehicle",
+      "dateRecupAllowed":"2023-08-13T00:00:00.000Z",
+      "dateMED": "2023-07-05T00:00:00.000Z",
+      "contract":{
+        "customer":{
+          "_id":"64a80de739a14c148ded9ffa",
+          "firstName" :"FirstName",
+          "lastName": "lastName",
+          "numberPhonePro" :"0333333333",
+          "mail" :"test@gmail.com",
+          "city" :"Tananarive",
+          "adresse1" :"Tananarive, Madagascar"
+        },
+         "vehicle":{
+           "immat1": "FE-503-AA",
+           "mark" :"TOYOTA",
+           "modele" :"PRIUS 3",
+           "_id": "634fe61772459200217ff718"
+        },
+         "driver":{
+           "_id" :"64a7fc8d39a14c148ded80e1",
+           "civilite" : "Monsieur",
+           "firstName" : "Hoby",
+           "lastName" :"Flutter",
+           "portable" : "7777777777",
+           "address" : "101Dalou2louliantongtian Bridge, Xinyi District, Taipei City, Taïwan 110"
+        },
+        "info":{
+          "_id":"64afa8903e489715c336da09",
+          "departureDate" :"2023-07-12T00:00:00.000Z",
+        },
+        "rate":{
+          "_id" : "64afa8903e489715c336da07",
+          "rent" :[
+            {
+              "_id" : "64afa8903e489715c336da02",
+              "locationType" :"Location classique",
+              "duration" : "1-mois",
+              "durationDay" :"0",
+              "payementType" : "Mensuel",
+            }
+          ]
+        },
+        "reglement":[
+          {
+            "_id" : "64afa7cf3e489715c336d56d",
+            "echeanceDate" : "13/07/2023",
+            "amount" : "200",
+            "payementType" : "Mensuel",
+            "montant" : "5000.00",
+            "amountToPay" :"5000.00"
+          }
+        ]
+        "isEdlDepart":true,
+        "numberContrat" : "CT0001",
+        "_id" :"64afa7cf3e489715c336d53a",
+      }
+    },
+  ]
 }
