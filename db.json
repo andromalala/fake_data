@@ -11,6 +11,10 @@
   "profile": {
     "name": "typicode"
   },
+  "notification":[
+    {"numberContrat":"CT0001", "typeEcheance":"Loyer","reste":"200","immat":"immat"},
+     {"numberContrat":"CT0002", "typeEcheance":"Depot de garantie","reste":"350","immat":"immat"}
+  ],
   "listVehicleRecup":[
     {
       "_id":"idVehicle",
