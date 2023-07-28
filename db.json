@@ -75,5 +75,17 @@
         "_id" :"64afa7cf3e489715c336d53a"
       }
     }
+  ],
+   "data":[
+    {"numberContrat":"CT0001",
+    "echeanceDate":"2023-07-12T00:00:00.000Z",
+    "idClient":"64afa8903e489715c336da09",
+    "paymentLink":"https://sogecommerce.societegenerale.eu/vads-payment/entry.tokenPayment.a?token=6ab70baba6604fb79a4d6cf1109493c1&style=vSHXNk8cyhUJDMiggRs$5A--"
+    },
+    {"numberContrat":"CT0002",
+    "echeanceDate":"2023-07-12T00:00:00.000Z",
+    "idClient":"64afa8903e489715c336da09",
+    "paymentLink":"https://sogecommerce.societegenerale.eu/vads-payment/entry.tokenPayment.a?token=6ab70baba6604fb79a4d6cf1109493c1&style=vSHXNk8cyhUJDMiggRs$5A--"
+    }
   ]
 }
