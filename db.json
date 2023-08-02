@@ -16,7 +16,9 @@
           "numberPhonePro" :"0333333333",
           "mail" :"test@gmail.com",
           "city" :"Tananarive",
-          "adresse1" :"Tananarive, Madagascar"
+          "adresse1" :"Tananarive, Madagascar",
+          "codePostal":"75017",
+          "city":"Paris",
         },
          "vehicle":{
            "immat1": "FE-503-AA",
@@ -30,7 +32,9 @@
            "firstName" : "Hoby",
            "lastName" :"Flutter",
            "portable" : "7777777777",
-           "address" : "101Dalou2louliantongtian Bridge, Xinyi District, Taipei City, Taïwan 110"
+           "address" : "101Dalou2louliantongtian Bridge, Xinyi District, Taipei City, Taïwan 110",
+           "codePostal":"70001",
+           "city":"tana",
         },
         "info":{
           "_id":"64afa8903e489715c336da09",
