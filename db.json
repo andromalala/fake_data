@@ -17,8 +17,7 @@
           "mail" :"test@gmail.com",
           "city" :"Tananarive",
           "adresse1" :"Tananarive, Madagascar",
-          "codePostal":"75017",
-          "city":"Paris",
+          "codePostal":"75017"
         },
          "vehicle":{
            "immat1": "FE-503-AA",
@@ -34,7 +33,7 @@
            "portable" : "7777777777",
            "address" : "101Dalou2louliantongtian Bridge, Xinyi District, Taipei City, Taïwan 110",
            "postalCode":"70001",
-           "city":"tana",
+           "city":"tana"
         },
         "info":{
           "_id":"64afa8903e489715c336da09",
