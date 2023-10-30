@@ -129,16 +129,40 @@
       }
     }
   ],
-   "data":[
-    {"numberContrat":"CT0001",
-    "echeanceDate":"2023-07-12T00:00:00.000Z",
-    "idClient":"64afa8903e489715c336da09",
-    "paymentLink":"https://sogecommerce.societegenerale.eu/vads-payment/entry.tokenPayment.a?token=6ab70baba6604fb79a4d6cf1109493c1&style=vSHXNk8cyhUJDMiggRs$5A--"
-    },
-    {"numberContrat":"CT0002",
-    "echeanceDate":"2023-07-12T00:00:00.000Z",
-    "idClient":"64afa8903e489715c336da09",
-    "paymentLink":"https://sogecommerce.societegenerale.eu/vads-payment/entry.tokenPayment.a?token=6ab70baba6604fb79a4d6cf1109493c1&style=vSHXNk8cyhUJDMiggRs$5A--"
+  "test":{
+    "inProgress":[
+    {
+      "_id":"idVehicle2",
+      "putInDate":"2023-08-13T00:00:00.000Z",
+      "dateMED": "2023-07-05T00:00:00.000Z",
+      "driver":{
+           "_id" :"64a7fc8d39a14c148ded80e1",
+           "civilite" : "Monsieur",
+           "firstName" : "Hoby",
+           "lastName" :"Flutter",
+           "portable" : "7777777777",
+           "address1" : "101Dalou2louliantongtian Bridge, Xinyi District, Taipei City, Taïwan 110",
+           "postalCode":"70001",
+           "city":"tana"
+        },
+       "customer":{
+          "_id":"64a80de739a14c148ded9ffa",
+          "firstName" :"FirstName",
+          "lastName": "lastName",
+          "numberPhonePro" :"0333333333",
+          "city" :"Tananarive",
+          "adresse1" :"Tananarive, Madagascar",
+          "codePostal":"75017"
+        },
+      "immatriculation":"FX-548",
+      "markModel":"Toyota",
+      "creance":200,
+      "contrat":{
+        "duration" : "1-mois",
+        "departure":"2023-07-05T00:00:00.000Z",
+        "type":"Location classique"
+      }
     }
   ]
+  }
 }
