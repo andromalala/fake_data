@@ -3,7 +3,43 @@
     {"numberContrat":"CT0001", "typeEcheance":"Loyer","reste":"200","immat":"immat"},
      {"numberContrat":"CT0002", "typeEcheance":"Depot de garantie","reste":"350","immat":"immat"}
   ],
-  "listVehicleRecup":[
+  "test":{
+    "inProgress":[
+    {
+      "_id":"idVehicle2",
+      "putInDate":"2023-10-30T00:00:00.000Z",
+      "dateMED": "2023-07-05T00:00:00.000Z",
+      "driver":{
+           "_id" :"64a7fc8d39a14c148ded80e1",
+           "civilite" : "Monsieur",
+           "firstName" : "Hoby",
+           "lastName" :"Flutter",
+           "portable" : "7777777777",
+           "address1" : "101Dalou2louliantongtian Bridge, Xinyi District, Taipei City, Taïwan 110",
+           "postalCode":"70001",
+           "city":"tana"
+        },
+       "customer":{
+          "_id":"64a80de739a14c148ded9ffa",
+          "firstName" :"FirstName",
+          "lastName": "lastName",
+          "numberPhonePro" :"0333333333",
+          "city" :"Tananarive",
+          "adresse1" :"Tananarive, Madagascar",
+          "codePostal":"75017"
+        },
+      "immatriculation":"FX-548",
+      "markModel":"Toyota",
+      "creance":200,
+      "contrat":{
+        "duration" : "1-mois",
+        "dateDeparture":"2023-07-05T00:00:00.000Z",
+        "type":"Location classique"
+      }
+    }
+  ]
+  },
+   "listVehicleRecup":[
     {
       "_id":"idVehicle2",
       "dateRecupAllowed":"2023-08-13T00:00:00.000Z",
@@ -128,41 +164,5 @@
         "_id" :"64afa7cf3e489715c336d53a"
       }
     }
-  ],
-  "test":{
-    "inProgress":[
-    {
-      "_id":"idVehicle2",
-      "putInDate":"2023-08-13T00:00:00.000Z",
-      "dateMED": "2023-07-05T00:00:00.000Z",
-      "driver":{
-           "_id" :"64a7fc8d39a14c148ded80e1",
-           "civilite" : "Monsieur",
-           "firstName" : "Hoby",
-           "lastName" :"Flutter",
-           "portable" : "7777777777",
-           "address1" : "101Dalou2louliantongtian Bridge, Xinyi District, Taipei City, Taïwan 110",
-           "postalCode":"70001",
-           "city":"tana"
-        },
-       "customer":{
-          "_id":"64a80de739a14c148ded9ffa",
-          "firstName" :"FirstName",
-          "lastName": "lastName",
-          "numberPhonePro" :"0333333333",
-          "city" :"Tananarive",
-          "adresse1" :"Tananarive, Madagascar",
-          "codePostal":"75017"
-        },
-      "immatriculation":"FX-548",
-      "markModel":"Toyota",
-      "creance":200,
-      "contrat":{
-        "duration" : "1-mois",
-        "departure":"2023-07-05T00:00:00.000Z",
-        "type":"Location classique"
-      }
-    }
   ]
-  }
 }
